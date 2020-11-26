@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  background(220)
+  background(10)
 
   let increment = 1/100;
   for (let i = -1; i <= 1; i+=increment) {
@@ -36,9 +36,9 @@ function draw() {
 }
 
 function derivada(x) {
-    return 2 * x
+    return 3 * x * x
 }
 
 function f(x) {
-    return x * x
+    return x * x * x
 }
